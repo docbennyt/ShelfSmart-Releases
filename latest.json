@@ -1,18 +1,33 @@
 {
-  "schemaVersion": 1,
-  "published": false,
-  "product": "ShelfSmart",
-  "platform": "android",
-  "version": "3.2.0",
-  "versionCode": 12,
-  "sourceCommit": null,
-  "publishedAt": null,
-  "minimumAndroidSdk": 24,
-  "recommended": null,
-  "artifacts": [],
-  "releaseUrl": "https://github.com/docbennyt/ShelfSmart-Releases/releases/latest",
-  "distributionPolicy": "APK downloads remain available independently of brief API or database maintenance.",
-  "accountSetupRequiresBackend": true,
-  "releaseCandidateReady": true,
-  "notes": "ShelfSmart 3.2.0 (Android version code 12) is the prepared public release candidate. Production onboarding was re-verified on 2026-09-19 after database migrations completed successfully. No public APK is attached yet, so published remains false until the exact signed APK artifacts and SHA-256 checksums are uploaded. Once published, distribution stays available during brief backend maintenance and users should retry transient account-setup errors without uninstalling or clearing app data."
+    "schemaVersion":  1,
+    "published":  true,
+    "product":  "ShelfSmart",
+    "platform":  "android",
+    "version":  "3.2.0",
+    "versionCode":  12,
+    "sourceCommit":  "defda601bff9ee68de8f77257d1f638cab39e454",
+    "publishedAt":  "2026-09-19T17:51:47.5146535Z",
+    "minimumAndroidSdk":  24,
+    "recommended":  "arm64-v8a",
+    "artifacts":  [
+                      {
+                          "abi":  "arm64-v8a",
+                          "filename":  "ShelfSmart-3.2.0-arm64-v8a.apk",
+                          "url":  "https://github.com/docbennyt/ShelfSmart-Releases/releases/download/v3.2.0/ShelfSmart-3.2.0-arm64-v8a.apk",
+                          "sha256":  "558322645d7380442284bdae87790643364b90d98e7071c1efa7b8725f895a4f",
+                          "sizeBytes":  43482525
+                      },
+                      {
+                          "abi":  "armeabi-v7a",
+                          "filename":  "ShelfSmart-3.2.0-armeabi-v7a.apk",
+                          "url":  "https://github.com/docbennyt/ShelfSmart-Releases/releases/download/v3.2.0/ShelfSmart-3.2.0-armeabi-v7a.apk",
+                          "sha256":  "c13ba9f50ff10dffbebc0ab0d600aacc5425c14e27f7cbbee07b6316864682bb",
+                          "sizeBytes":  39467027
+                      }
+                  ],
+    "releaseUrl":  "https://github.com/docbennyt/ShelfSmart-Releases/releases/tag/v3.2.0",
+    "distributionPolicy":  "APK downloads remain available independently of brief API or database maintenance.",
+    "accountSetupRequiresBackend":  true,
+    "releaseCandidateReady":  false,
+    "notes":  "Public APKs remain downloadable during brief backend maintenance. If new-account setup is interrupted by a transient backend maintenance window, retry without uninstalling or clearing ShelfSmart app data."
 }
