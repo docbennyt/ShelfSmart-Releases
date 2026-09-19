@@ -11,6 +11,12 @@ Use the latest GitHub Release on this repository. ShelfSmart publishes device-sp
 
 Do not download APKs from the repository source tree. Official binaries are attached to GitHub Releases and accompanied by SHA-256 checksums.
 
+## Availability during backend maintenance
+
+**APK downloads remain available even during brief ShelfSmart API or database maintenance.** Distribution and account-service availability are intentionally separate so a short migration or backend restart does not stop people from downloading and installing ShelfSmart.
+
+First-time account creation and sign-in require the ShelfSmart API to be online. If setup ever shows a temporary server error during a maintenance window, keep ShelfSmart installed and retry shortly — **do not uninstall or clear app data**. Once a shop is set up, ShelfSmart is designed around local-first operation so day-to-day selling does not depend on a permanently available connection.
+
 ## Release integrity
 
 Every public release records:
