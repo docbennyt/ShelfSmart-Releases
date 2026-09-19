@@ -2,6 +2,12 @@
 
 This repository is the **public binary distribution channel** for ShelfSmart. The application source code remains private.
 
+## Current release status
+
+ShelfSmart **3.2.0 (Android build 12)** is the prepared public release candidate. Production account creation, entitlements, reconciliation, sync, exchange-rate access, and media upload/download were re-verified against the live ShelfSmart API on 19 September 2026.
+
+The release is not considered public until the signed APKs are attached to a GitHub Release, checksums are published, and [`latest.json`](./latest.json) reports `"published": true`. Until then, download surfaces should remain in pilot/waitlist mode rather than presenting an unverified APK as public.
+
 ## Downloading ShelfSmart
 
 Use the latest GitHub Release on this repository. ShelfSmart publishes device-specific Android APKs rather than one oversized universal APK:
