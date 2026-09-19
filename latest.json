@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "published": false,
+  "product": "ShelfSmart",
+  "platform": "android",
+  "version": null,
+  "versionCode": null,
+  "sourceCommit": null,
+  "publishedAt": null,
+  "minimumAndroidSdk": 24,
+  "recommended": null,
+  "artifacts": [],
+  "releaseUrl": "https://github.com/docbennyt/ShelfSmart-Releases/releases/latest",
+  "notes": "No public APK has been published yet. The landing page should keep the download CTA in pilot/waitlist mode until published becomes true."
+}
