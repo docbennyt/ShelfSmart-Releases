@@ -11,5 +11,7 @@
   "recommended": null,
   "artifacts": [],
   "releaseUrl": "https://github.com/docbennyt/ShelfSmart-Releases/releases/latest",
-  "notes": "No public APK has been published yet. The landing page should keep the download CTA in pilot/waitlist mode until published becomes true."
+  "distributionPolicy": "APK downloads remain available independently of brief API or database maintenance.",
+  "accountSetupRequiresBackend": true,
+  "notes": "No public APK is attached yet. Once a release is published, keep distribution open during brief backend maintenance; transient account-setup errors should be retried without uninstalling or clearing app data."
 }
