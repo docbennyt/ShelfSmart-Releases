@@ -3,8 +3,8 @@
   "published": false,
   "product": "ShelfSmart",
   "platform": "android",
-  "version": null,
-  "versionCode": null,
+  "version": "3.2.0",
+  "versionCode": 12,
   "sourceCommit": null,
   "publishedAt": null,
   "minimumAndroidSdk": 24,
@@ -13,5 +13,6 @@
   "releaseUrl": "https://github.com/docbennyt/ShelfSmart-Releases/releases/latest",
   "distributionPolicy": "APK downloads remain available independently of brief API or database maintenance.",
   "accountSetupRequiresBackend": true,
-  "notes": "No public APK is attached yet. Once a release is published, keep distribution open during brief backend maintenance; transient account-setup errors should be retried without uninstalling or clearing app data."
+  "releaseCandidateReady": true,
+  "notes": "ShelfSmart 3.2.0 (Android version code 12) is the prepared public release candidate. Production onboarding was re-verified on 2026-09-19 after database migrations completed successfully. No public APK is attached yet, so published remains false until the exact signed APK artifacts and SHA-256 checksums are uploaded. Once published, distribution stays available during brief backend maintenance and users should retry transient account-setup errors without uninstalling or clearing app data."
 }
